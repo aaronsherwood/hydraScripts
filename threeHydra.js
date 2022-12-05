@@ -22,7 +22,7 @@ glitch = (toGlitch, feedback, smoothing, blur, amt, pixelSize, diff, orig, bw)=>
                 // another way to load the midi js file to enable WebMidi
                 const s = document.createElement( 'script' )
                 // change the next line to the file location on your computer
-                s.src = '/Users/ags419/Downloads/butterflies/Butterfly.js'
+                s.src = '/Users/ags419/Documents/Code/hydraScripts/butterflies/Butterfly.js'
                 document.querySelector( 'head' ).appendChild( s )
 
                 // b = new Butterfly();
